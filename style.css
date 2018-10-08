@@ -1,4 +1,22 @@
+
+
+.deal-name {height: 63px;width: 200px;}
+
+.deal-img {
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+img.deal-img-style {
+    width: 345px;
+}
+
 .deal-holder {
     display: inline-block;
+    background: white;
+    padding: 1px;
+    margin: 10px;
+    box-shadow: 1px 1px 1px 1px #eeeeee;
 }
 
