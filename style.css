@@ -9,16 +9,19 @@ img.deal-img-style {
     background-color: white;
     border-radius: 20px;
 }
-	
-	.index-grid {
 
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
-    grid-auto-flow: dense; }
+	h3 {
+    color: black;
+    font-size: 2em;
+}
+
+h5 {
+    color: black;
+    margin: 0px;
+}
 
 
+}
 }
 
 
@@ -61,5 +64,7 @@ img.deal-img-style {
     box-shadow: 1px 1px 1px 1px #eeeeee;
 }
 
+	body {
+		background-color: #eeeeee;}
 }
 
