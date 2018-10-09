@@ -1,3 +1,35 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+img.deal-img-style {
+    width: 100%;
+}
+
+.deal-holder {
+    margin: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+}
+
+
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+
+
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+
+
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+
 
 
 .deal-name {height: 63px;width: 200px;}
@@ -18,5 +50,7 @@ img.deal-img-style {
     padding: 1px;
     margin: 10px;
     box-shadow: 1px 1px 1px 1px #eeeeee;
+}
+
 }
 
