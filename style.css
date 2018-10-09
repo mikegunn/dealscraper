@@ -1,19 +1,26 @@
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
-img.deal-img-style {
+
+	body {
+		background-color: #eeeeee!important;
+		margin: 0px;
+		}img.deal-img-style {
     width: 100%;
+}
+h1 {
+    margin: 0px!important;
 }
 
 .deal-holder {
-    margin: 30px;
-    padding: 30px;
+    margin: 10px;
+    padding: 0px;
     background-color: white;
     border-radius: 20px;
 }
-<<<<<<< HEAD
+
 
 	h3 {
     color: black;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 h5 {
@@ -46,12 +53,7 @@ h5 {
 
 
 
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-
-
-@media (min-width:1281px) { /* hi-res laptops and desktops */ 
-
-
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 
 .deal-name {height: 63px;width: 200px;}
 
@@ -62,7 +64,7 @@ h5 {
 }
 
 img.deal-img-style {
-    width: 345px;
+    width: 100%;
 }
 
 .deal-holder {
@@ -73,8 +75,7 @@ img.deal-img-style {
     box-shadow: 1px 1px 1px 1px #eeeeee;
 }
 
-	body {
-		background-color: #eeeeee!important;}
+
 	
 	.index-grid {
 
@@ -83,5 +84,13 @@ img.deal-img-style {
     grid-column-gap: 10px;
     grid-row-gap: 15px;
     grid-auto-flow: dense; }
+    }
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+
+
+
+
 }
 
