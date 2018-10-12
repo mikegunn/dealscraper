@@ -11,7 +11,7 @@ h1 {
 }
 
 .deal-holder {
-    margin: 10px;
+    margin: 1em 2em 1em 2em;
     padding: 0px;
     background-color: white;
     border-radius: 20px;
@@ -46,16 +46,26 @@ h5 {
 	.index-grid {
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 15px;
     grid-auto-flow: dense; }
-    }
+  }
 
 
 
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
+	.index-grid {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-auto-flow: dense; }
+    }
+
+}
 
  }
 
