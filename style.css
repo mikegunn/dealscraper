@@ -40,6 +40,10 @@ h5 {
     grid-auto-flow: dense; }
 
 
+.deal-info {
+    padding: 10px;
+    min-height: 50px;
+}
 }
 
 
