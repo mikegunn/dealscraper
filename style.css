@@ -61,23 +61,15 @@ h5 {
 
 
 
-@media (min-width:670px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-
-.index-grid {
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+	.index-grid {
 
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 15px;
     grid-auto-flow: dense; }
     }
-    .deal-site {
-    display: block;
-    float: right;
-    background-color: #ed2273;
-    padding: 4px;
-}
-
 
 
  }
@@ -87,13 +79,7 @@ h5 {
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 
 	
-	.index-grid {
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
-    grid-auto-flow: dense; }
+	.index-grid {display: grid;grid-template-columns: repeat(3, 1fr);grid-column-gap: 10px;grid-row-gap: 15px;grid-auto-flow: dense;}
     }
 
 
