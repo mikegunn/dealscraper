@@ -9,6 +9,7 @@
 }
 h1 {
     margin: 0px!important;
+    font-size: 4em;
 }
 
 .deal-holder {
@@ -21,7 +22,7 @@ h1 {
 
 	h3 {
     color: black;
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0px!important;
 }
  /* remove margin later as may not need it */
@@ -29,6 +30,7 @@ h1 {
 h5 {
     color: white;
     margin: 0px;
+    font-size: 2em;
 }
 
 	.index-grid {
@@ -120,7 +122,8 @@ img.deal-img-style {
     display: block;
     float: right;
     background-color: #ed2273;
-    padding: 4px;
+    padding: 11px;
+    margin: 10px 0px 0px 10px;
 }
 
 
@@ -129,6 +132,7 @@ img.deal-img-style {
     color: white;
     padding: 10px;
     width: 100%;
+    overflow: hidden;
 }
 
 .nav-box {
@@ -137,6 +141,7 @@ img.deal-img-style {
 
 .logo {
     display: inline-block;
+    height: 100%;
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
 
