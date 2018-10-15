@@ -58,6 +58,17 @@ h5 {
 }
 
 	
+<<<<<<< HEAD
+=======
+	.index-grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-auto-flow: dense; }
+    }
+>>>>>>> parent of 04491ae... mobile grid fix
 
 
 
