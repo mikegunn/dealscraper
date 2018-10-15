@@ -29,6 +29,7 @@ h1 {
 h5 {
     color: white;
     margin: 0px;
+    font-size: 0.8em;
 }
 
 	.index-grid {
@@ -86,7 +87,7 @@ h5 {
 
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 
-.deal-name {height: auto;width: auto;display: block;}
+.deal-name {height: auto;width: auto;display: block;font-size: 1.1em;}
 
 .deal-img {
     width: auto;
