@@ -4,6 +4,7 @@
 		background-color: #eeeeee!important;
 		margin: 0px;
 		font-family: arial;
+		width: 100%;
 		}img.deal-img-style {
     width: 100%;
 }
@@ -11,9 +12,11 @@ h1 {
     margin: 0px!important;
     font-size: 4em;
 }
-
+a {
+    text-decoration: none;
+}
 .deal-holder {
-    margin: 10px;
+    margin: 41px;
     padding: 0px;
     background-color: white;
     border-radius: 20px;
@@ -22,8 +25,9 @@ h1 {
 
 	h3 {
     color: black;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0px!important;
+    text-decoration: none;
 }
  /* remove margin later as may not need it */
 
@@ -130,7 +134,7 @@ img.deal-img-style {
 .header {
     background-color: #3177B2;
     color: white;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
     overflow: hidden;
 }
