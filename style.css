@@ -91,7 +91,7 @@ img.deal-img-style {
     grid-column-gap: 10px;
     grid-row-gap: 15px;
     grid-auto-flow: dense; }
-    }
+    
 .deal-site {
     display: block;
     float: right;
