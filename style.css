@@ -44,10 +44,27 @@ h5 {
     padding: 10px;
     min-height: 50px;
 }
+
+.deal-site {
+    display: block;
+    float: right;
+    background-color: #ed2273;
+    padding: 4px;
+}
 }
 
 
 
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+	
+	.index-grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-auto-flow: dense; }
+    }
 
 
 
@@ -60,7 +77,20 @@ h5 {
 
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 
+	
+	.index-grid {display: grid;grid-template-columns: repeat(3, 1fr);grid-column-gap: 10px;grid-row-gap: 15px;grid-auto-flow: dense;}
+	.deal-site {
+    display: block;
+    float: right;
+    background-color: #ed2273;
+    padding: 4px;
+}
 
+    }
+
+
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 
 .deal-name {height: auto;width: auto;display: block;}
 
@@ -91,7 +121,7 @@ img.deal-img-style {
     grid-column-gap: 10px;
     grid-row-gap: 15px;
     grid-auto-flow: dense; }
-    
+    }
 .deal-site {
     display: block;
     float: right;
@@ -114,5 +144,10 @@ img.deal-img-style {
 .logo {
     display: inline-block;
 }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+
+
+
+
 }
 
