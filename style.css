@@ -1,4 +1,4 @@
-@media (max-width:667px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ /* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
 
 	body {
 		background-color: #eeeeee!important;
@@ -40,26 +40,16 @@ h5 {
     grid-auto-flow: dense; }
 
 
-<<<<<<< HEAD
 .deal-info {
     padding: 10px;
     min-height: 50px;
 }
-=======
 }
 
->>>>>>> parent of 8b113e4... deal info styling
 
-.deal-site {
-    display: block;
-    float: right;
-    background-color: #ed2273;
-    padding: 4px;
-}
 
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
 	
-<<<<<<< HEAD
-=======
 	.index-grid {
 
     display: grid;
@@ -68,34 +58,31 @@ h5 {
     grid-row-gap: 15px;
     grid-auto-flow: dense; }
     }
->>>>>>> parent of 04491ae... mobile grid fix
 
 
 
-
-
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
 
  }
 
 
 
-@media (max-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 
 	
-	.index-grid {display: grid;grid-template-columns: repeat(3, 1fr);grid-column-gap: 10px;grid-row-gap: 15px;grid-auto-flow: dense;}
-	.deal-site {
-    display: block;
-    float: right;
-    background-color: #ed2273;
-    padding: 4px;
-}
+	.index-grid {
 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-auto-flow: dense; }
     }
 
 
 
-@media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 
 .deal-name {height: auto;width: auto;display: block;}
 
@@ -149,10 +136,9 @@ img.deal-img-style {
 .logo {
     display: inline-block;
 }
-@media (max-width:1281px) { /* hi-res laptops and desktops */ 
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
 
 
 
 
 }
-
