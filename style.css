@@ -1,4 +1,4 @@
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-device-width: 320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
 
 	body {
 		background-color: #eeeeee!important;
@@ -29,7 +29,6 @@ h1 {
 h5 {
     color: white;
     margin: 0px;
-    font-size: 0.8em;
 }
 
 	.index-grid {
@@ -49,7 +48,7 @@ h5 {
 
 
 
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (min-device-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
 	
 	.index-grid {
 
@@ -62,7 +61,7 @@ h5 {
 
 
 
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-device-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 	.index-grid {
 
     display: grid;
@@ -87,7 +86,7 @@ h5 {
 
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 
-.deal-name {height: auto;width: auto;display: block;font-size: 1.1em;}
+.deal-name {height: auto;width: auto;display: block;}
 
 .deal-img {
     width: auto;
