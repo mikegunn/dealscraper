@@ -5,9 +5,8 @@
 		margin: 0px;
 		font-family: arial;
 		width: 100%;
-		}img.deal-img-style {
-    width: 100%;
-}
+		}
+
 h1 {
     margin: 0px!important;
     font-size: 4em;
@@ -15,13 +14,6 @@ h1 {
 a {
     text-decoration: none;
 }
-.deal-holder {
-    margin: 41px;
-    padding: 0px;
-    background-color: white;
-    border-radius: 20px;
-}
-
 
 	h3 {
     color: black;
@@ -37,6 +29,18 @@ h5 {
     font-size: 2em;
 }
 
+.header {
+    background-color: #3177B2;
+    color: white;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
 	.index-grid {
 
     display: grid;
@@ -45,10 +49,18 @@ h5 {
     grid-row-gap: 15px;
     grid-auto-flow: dense; }
 
-
+.deal-holder {
+    margin: 41px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 20px;
+}
 .deal-info {
     padding: 10px;
     min-height: 50px;
+}
+img.deal-img-style {
+    width: 100%;
 }
 }
 
@@ -102,6 +114,7 @@ h5 {
 
 img.deal-img-style {
     width: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .deal-holder {
@@ -115,12 +128,21 @@ img.deal-img-style {
 
 	
 	.index-grid {display: grid;grid-template-columns: repeat(3, 1fr);grid-column-gap: 10px;grid-row-gap: 15px;grid-auto-flow: dense;max-width: 900px;margin-left: auto;margin-right: auto;}
+  
   	h3 {
     color: black;
     font-size: 1em;
     margin: 0px!important;
     text-decoration: none;
 } 
+
+h5 {
+    color: white;
+    margin: 0px;
+    font-size: 1em;
+}
+
+
 .deal-site {
     display: block;
     float: right;
