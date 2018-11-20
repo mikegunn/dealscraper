@@ -115,7 +115,12 @@ img.deal-img-style {
 
 	
 	.index-grid {display: grid;grid-template-columns: repeat(3, 1fr);grid-column-gap: 10px;grid-row-gap: 15px;grid-auto-flow: dense;max-width: 900px;margin-left: auto;margin-right: auto;}
-    }
+  	h3 {
+    color: black;
+    font-size: 1em;
+    margin: 0px!important;
+    text-decoration: none;
+} 
 .deal-site {
     display: block;
     float: right;
@@ -133,6 +138,12 @@ img.deal-img-style {
     overflow: hidden;
 }
 
+.header-grid {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .nav-box {
     display: inline-block;
 }
@@ -141,6 +152,8 @@ img.deal-img-style {
     display: inline-block;
     height: 100%;
 }
+	
+ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
 
 
