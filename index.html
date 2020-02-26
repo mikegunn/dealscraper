@@ -50,7 +50,7 @@ $.getJSON(url, function(data) {
   html += '</table>';
 
   // output html
-  $('.console').html(/index.html);
+  $('.console').html(html);
 });
 
 // loading animation
@@ -73,7 +73,12 @@ $(document)
 
 
 <div class="console"></div>
-
+<script>
+$.getJSON("http://cors.io/spreadsheets.google.com/feeds/list/0AtMEoZDi5-pedElCS1lrVnp0Yk1vbFdPaUlOc3F3a2c/od6/public/values?alt=json", function(data) {
+  //first row "title" column
+  console.log(data.feed.entry[0]['gsx$title']['$t']);
+});
+</script>
 <div class="loading">
 </div>
 
